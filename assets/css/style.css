@@ -1,15 +1,16 @@
-.navbar {
-    border-radius: 0;
-    margin-bottom: 0;
-    border-bottom: 8px solid teal;
-    background-color: white;
-
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 .navbar-brand {
     padding: 30px 0;
+    font-size: 1.2em;
 }
 
+#navigation {
+    border-bottom: solid teal 10px;
+}
 
  .list {
      display: inline;
@@ -23,15 +24,11 @@
      font-size: 1.2em;
      color: white;
      font-weight: bold;
-     background-color: teal;
+     border-radius: 5px;
+     background-color: gray;
      padding: 15px 10px;
 
  }
-
- .navbar-nav {
-    float: right;
-    margin-top: 10px;
-}
 
 a {
     color: black;
@@ -51,6 +48,7 @@ a:hover {
 
  p {
      line-height: 2;
+     font-size: 1.5em;
  }
  
  .container {
@@ -58,8 +56,15 @@ a:hover {
      border-radius: 20px;
  }
  
+ h3 {
+     color: teal;
+     font-weight: bold;
+ }
  body {
-     background-color: rgba(238, 232, 232, 0.774);
+     
+     background-image: url(https://livability.com/sites/default/files/Charlotte-NC.jpg);
+     margin-bottom: 100px;
+     background-size: cover;
  }
  
  .img-1 {
@@ -69,14 +74,22 @@ a:hover {
  }
 
 .blah {
+    padding-top: 10px;
     background-color: white;
     margin-bottom: 20px;
     border-radius: 20px;
+    opacity: .80;
 }
 
+
 #aside {
+    text-align: center;
+    font-weight: bold;
     background-color: white;
     border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    opacity: .80;
 }
 
 .connect {
@@ -85,8 +98,11 @@ a:hover {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     
-    padding: 10px 0;
+    
     background-color: gray;
     color: white;
     text-align: center;
