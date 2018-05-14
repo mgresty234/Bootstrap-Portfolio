@@ -8,8 +8,11 @@ html {
     font-size: 1.2em;
 }
 
+
+
 #navigation {
     border-bottom: solid teal 10px;
+    opacity: .80;
 }
 
  .list {
@@ -101,6 +104,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
+    opacity: .80;
     
     
     background-color: gray;
