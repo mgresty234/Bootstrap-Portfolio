@@ -134,8 +134,12 @@ ul {
 
 .pimg-2, .pimg-4 {
     margin-top: 10px;
+
 }
 
+.pimg-4 {
+    margin-bottom: 10px;
+}
 .pic1, .pic2, .pic3, .pic4 {
     position: relative;
 }
