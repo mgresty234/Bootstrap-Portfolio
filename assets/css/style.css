@@ -8,6 +8,9 @@ html {
     font-size: 1.2em;
 }
 
+.form-control {
+    opacity: .99;
+}
 
 
 #navigation {
@@ -93,6 +96,7 @@ a:hover {
     padding-bottom: 10px;
     padding-top: 10px;
     opacity: .80;
+    
 }
 
 .connect {
@@ -123,6 +127,13 @@ ul {
 
 
 
+.name {
+    opacity: 100%;
+}
+
+#port {
+    text-align: center;
+}
 
 .btn {
     background-color: teal;
